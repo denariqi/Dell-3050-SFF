@@ -13,12 +13,13 @@
 *  设置64M：setup_var 0x795 0x02
 *  设置max：setup_var 0x796 0x03
 *  设置CFG：setup_var 0x4ed 0x00
+*  恢复BIOS出厂设置，需要重新刷写！！！
 
-## 声卡、麦克风修复
+## SMBIOS: iMac 19,1
+
+## 声卡、麦克风修复，其他
 *  需要CodecCommander.Kext 
 *  运行ComboJack_Installer/install.sh，然后重启，插入耳机时，会弹出对话框询问你插入的是耳机还是耳塞。
-
-## 恢复BIOS出厂设置，需要重新刷写！！！
 *  CFGLock.efi  更改CFG开关
 *  VerifyMsrE2.efi  查看CFG状态
 *  WhateverGreen的Framebuffer补丁
