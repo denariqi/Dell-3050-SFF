@@ -16,13 +16,13 @@
 *  恢复BIOS出厂设置，需要重新刷写！！！
 
 ## SMBIOS: iMac 19,1
-
-## 声卡、麦克风修复，其他
-*  需要CodecCommander.Kext 
-*  运行ComboJack_Installer/install.sh，然后重启，插入耳机时，会弹出对话框询问你插入的是耳机还是耳塞。
 *  CFGLock.efi  更改CFG开关
 *  VerifyMsrE2.efi  查看CFG状态
 *  WhateverGreen的Framebuffer补丁
 *  AAPL,ig-platform-id Data 00001259 使用桌面iGPU驱动显示器时使用
 *  framebuffer-patch-enable Data 01000000 启用WhateverGreen kext打补丁
 *  framebuffer-stolenmem Data 00003001 设置最小内存为19MB
+*  
+## 声卡、麦克风修复
+*  需要CodecCommander.Kext 
+*  运行ComboJack_Installer/install.sh，然后重启，插入耳机时，会弹出对话框询问你插入的是耳机还是耳塞。
