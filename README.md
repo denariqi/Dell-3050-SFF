@@ -1,4 +1,4 @@
-# Dell-3050-SFF i5-7500
+# Dell OptiPlex SFF 3050 i5-7500 HD-630
 ## BIOS设定
 *  恢复factory defaults
 *   General → Advanced Boot Options：取消勾选
